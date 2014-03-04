@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = Refinerycms::AdminRestyle::VERSION
   spec.authors       = ["Anton Ivanopoulos"]
   spec.email         = ["a.ivanopoulos@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = "Admin layout redesign for the Ruby on Rails CMS, Refinery CMS."
+  spec.summary       = "Admin layout redesign for the Ruby on Rails CMS, Refinery CMS."
   spec.homepage      = ""
   spec.license       = "MIT"
 
