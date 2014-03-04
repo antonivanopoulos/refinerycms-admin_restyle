@@ -1,6 +1,9 @@
-# Refinerycms::AdminRestyle
+# RefineryCMS::AdminRestyle
 
-TODO: Write a gem description
+This gem will override the default admin layouts and css to provide an interface I've found a little more usable for client work.
+
+- Plugins will now appear down the left side of the scren, as opposed to tabs along the top of the content area.
+- The content area will now scale with the screen.
 
 ## Installation
 
@@ -15,10 +18,6 @@ And then execute:
 Or install it yourself as:
 
     $ gem install refinerycms-admin_restyle
-
-## Usage
-
-TODO: Write usage instructions here
 
 ## Contributing
 
