@@ -1,4 +1,4 @@
-require 'refinery_admin_restyle/admin_view_helpers'
+require 'refinerycms/admin_restyle/admin_view_helpers'
 
 module Refinerycms
   module AdminRestyle
