@@ -1,0 +1,18 @@
+<ul>
+  <%- navigation_menu.each do |key, item| %>
+    <%- if item.kind_of? Array %>
+      <li class="accordion">
+        <a class="expanded" href="javascript:void(0);"><%= key.to_s.humanize %></a>
+        <ul>
+          <%- item.each do |plugin| %>
+            <li>
+              <%= link_to plugin.title, refinery.url_for(plugin.url), :class => ("active" if plugin.highlighted?(params)), :id => "plugin_#{plugin.name}" %>
+            </li>
+          <% end %>
+    <%- else %>
+      <li>
+        <%= link_to item.title, refinery.url_for(item.url), :class => ("active" if item.highlighted?(params)), :id => "plugin_#{item.name}" if !item.blank? %>
+      </li>
+    <% end %>
+  <% end %>
+</ul>
