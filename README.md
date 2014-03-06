@@ -18,6 +18,15 @@ And then execute:
 Or install it yourself as:
 
     $ gem install refinerycms-admin_restyle
+    
+## Usage
+
+After running bundle, you need to add the following lines to your **core.rb** file:
+
+    config.register_javascript "refinery/menu"
+    config.register_stylesheet "refinery/admin", :media => 'screen'
+    
+These lines will just tell the backend of Refinery to use these additional resources.
 
 ## Contributing
 
