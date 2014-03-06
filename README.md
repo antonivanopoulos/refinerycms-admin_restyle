@@ -5,6 +5,8 @@ This gem will override the default admin layouts and css to provide an interface
 - Plugins will now appear down the left side of the scren, as opposed to tabs along the top of the content area.
 - The content area will now scale with the screen.
 
+![Refinery CMS with refinerycms-admin_restyle installed](http://antonivanopoulos.com/content/images/2014/Mar/Screen_Shot_2014_03_04_at_10_35_05_pm.png)
+
 ## Installation
 
 Add this line to your application's Gemfile:
