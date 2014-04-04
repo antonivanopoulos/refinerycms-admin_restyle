@@ -1,4 +1,11 @@
-input[type="checkbox"] {
-  float: left;
+.checkbox {
+  display: block;
+}
+
+.checkbox input [type="checkbox"] {
   margin-right: 5px;
+}
+
+.checkbox label {
+  display: inline;
 }
