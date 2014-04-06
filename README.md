@@ -1,5 +1,7 @@
 # RefineryCMS::AdminRestyle
 
+*Design by [Jessica Gunawardana](https://twitter.com/iammissjess).*
+
 This gem will override the default admin layouts and css to provide an interface I've found a little more usable for client work.
 
 - Plugins will now appear down the left side of the scren, as opposed to tabs along the top of the content area.
